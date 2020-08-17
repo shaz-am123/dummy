@@ -1,9 +1,8 @@
-
 .footer{
   text-align:center !important;
 }
 body{
-    font-family: "Montserrat";
+    font-family: "Ubuntu";
 }
 .main-page {
   text-align: center;
@@ -16,6 +15,15 @@ body{
 
 .about-page{
   text-align: left;
+}
+
+.carousel-item{
+  font-size: 0.50rem;
+  padding:10px;
+}
+
+.carousel-slide{
+  margin-bottom: 10%;
 }
 
 /* Headings */
