@@ -1,0 +1,166 @@
+
+.footer{
+  text-align:center !important;
+}
+body{
+    font-family: "Montserrat";
+}
+.main-page {
+  text-align: center;
+  overflow-x: hidden;
+}
+
+.contact-page{
+  text-align: center;
+}
+
+.about-page{
+  text-align: left;
+}
+
+/* Headings */
+
+.big-heading {
+  font-family: "Ubuntu";
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.small-heading{
+    font-family:"Ubuntu";
+    font-size:1.5rem;
+    
+}
+
+.mid-heading{
+    font-family:"Ubuntu";
+    font-size:2.5rem;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Containers */
+
+.container-fluid{
+  padding: 7% 15%;
+}
+
+/* Sections */
+
+.colored-section {
+  background-color: #151515;
+  color: #fff;
+}
+
+.white-section {
+  background-color: #fff;
+}
+
+/* Navigation Bar */
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat-Light";
+}
+
+/* Title Section */
+
+.title {
+  text-align: left;
+  padding: 3% 15% 7%;
+}
+
+.title-para{
+	margin-bottom: 5%;
+  line-height: 2;
+}
+
+/* Title Image */
+
+.title-image {
+  width: 60%;
+  transform: rotate(25deg);
+  position: relative;
+  left:200px;
+  margin-bottom: 5%;
+}
+
+
+/* Footer Section */
+.footer{
+    background-color: black;
+    color:white;
+    margin:0px auto;
+    padding:20px 0px 20px 0px;
+    line-height: 2rem;
+
+}
+.footer a{
+    color:#FFBF00;
+}
+.social-icon {
+  margin: 20px 20px;
+  color: orange;
+  font-size: 3rem;
+}
+.social-icon:hover{
+	color:#FFBF00;
+}
+
+/*features section*/
+
+.featureIcon-row{
+  padding: 5%;
+}
+
+.feature-icon{
+  color: orange;
+  font-size: 2rem;
+}
+
+/*Photo-section*/
+.photo-section{
+  padding:5%;
+}
+
+@media (max-width: 1028px) {
+
+  .title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+
+  body{
+    text-align: center !important;
+  }
+
+}
+
+.row-content{
+    
+    margin:0 auto;
+    padding:50px 0 50px 0;
+    border-bottom:1px ridge;
+    min-height: 400px;
+}
