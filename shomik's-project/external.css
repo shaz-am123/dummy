@@ -2,7 +2,7 @@
   text-align:center !important;
 }
 body{
-    font-family: "Ubuntu";
+    font-family: "Montserrat";
 }
 .main-page {
   text-align: center;
@@ -22,9 +22,6 @@ body{
   padding:10px;
 }
 
-.carousel-slide{
-  margin-bottom: 10%;
-}
 
 /* Headings */
 
