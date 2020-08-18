@@ -101,7 +101,6 @@ body{
 
 .title-image {
   width: 60%;
-  transform: rotate(25deg);
   position: relative;
   left:200px;
   margin-bottom: 5%;
